@@ -9,7 +9,7 @@ const defaults = {
   nameHumidity: 'Humidity'
 }
 
-// Note: the `auto` mode can be set only in the Smartmi Evaporative Humidifier
+// Note: the `auto` mode can be set only for the Smartmi Evaporative Humidifier
 const speedLevels = ['off', 'silent', 'medium', 'high', 'auto']
 
 let Service, Characteristic
